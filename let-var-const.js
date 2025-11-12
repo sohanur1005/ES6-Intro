@@ -11,4 +11,8 @@ let count=10;
 count=count+10;
 console.log(count)
 
+const a=[5,8,4,2,8,]
+a.push(5)
+console.log(a)
+
 
