@@ -30,10 +30,10 @@ console.log(sum2)
  console.log(sum3)
 //  multiple parameter
  
- const add4=(n1,n2,n3,n4) => (n1+n2)*(n3+n4);
- const multi=add4(1,2,3,4)
+ const multiply=(n1,n2,n3,n4) => (n1+n2)*(n3+n4);
+ const result=multiply(1,2,3,4)
  
- console.log(multi)
+ console.log(result)
 
 
 
