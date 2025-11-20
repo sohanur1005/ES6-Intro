@@ -8,3 +8,8 @@ const getThird=numbers=>numbers[2];
 const arr=[1,2,3,4,5,6,7];
 const third=getThird(arr)
 console.log(third)
+
+const double=number=>number*2;
+
+const result=double(5);
+console.log(result)
