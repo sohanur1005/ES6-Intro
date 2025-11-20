@@ -19,3 +19,13 @@ console.log(result)
 
 const getPI=()=>Math.PI
 console.log(getPI())
+
+// large arrow function
+const doMath=(x,y,z)=> {
+    const sum=x+y+z;
+    const multiply=x*y*z;
+    const result=sum +multiply;
+    return result;
+}
+const a=doMath(1,2,3)
+console.log(a)
