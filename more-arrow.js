@@ -1,3 +1,5 @@
+// 
+
 const getAge=(person)=>person.age;
 const student={name:'sohanur',age:24}
 const age=getAge(student)
@@ -10,6 +12,10 @@ const third=getThird(arr)
 console.log(third)
 
 const double=number=>number*2;
-
 const result=double(5);
 console.log(result)
+
+// no parameter
+
+const getPI=()=>Math.PI
+console.log(getPI())
