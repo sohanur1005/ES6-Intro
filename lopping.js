@@ -10,6 +10,7 @@ for(const key of glass)
     console.log(key)
 } */
 
+    // use for in
     for(const key in glass)
     {
         const value=glass[key]
