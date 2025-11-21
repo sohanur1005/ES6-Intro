@@ -7,7 +7,7 @@ console.log( glass)
 // delete a object
 delete glass.isCleaned;
 console.log(glass)
-// show object property/keys name
+// show object prope rty/keys name
 const keys=Object.keys(glass)
 console.log(keys)
 
